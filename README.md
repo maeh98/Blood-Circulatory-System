@@ -12,7 +12,23 @@ The presentation and the poster attached were presented towards (but before) the
 
 
 
+
+
+
+
+
+
+
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
 
 
 In this project we have modelled and simulated the circulatory system using 14 compartments: [large arteries, arterioles, capillaries, venules, large veins, left atrium, left ventricle, large arteries, arterioles capillaries, venules, large veins, right atrium, right ventricle].
