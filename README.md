@@ -20,7 +20,7 @@ The presentation and the poster attached were presented towards (but before) the
 
 In this project we have modelled and simulated the circulatory system using 14 compartments: [large arteries, arterioles, capillaries, venules, large veins, left atrium, left ventricle, large arteries, arterioles capillaries, venules, large veins, right atrium, right ventricle].
 
-You can choose between four numerical methods. You can choose between 2 different implementations of the adaptive time step, with a tradeoff between speed and accuracy. We have non-differentiable points in the model. To address that you can choose whether slightly modify the model, or use a root-finding method.
+You can choose between four numerical methods. You can choose between 2 different implementations of the adaptive time step, with a tradeoff between speed and accuracy. We have non-differentiable points in the model. To address that you can choose whether to use a slightly modified model, or use a root-finding method.
 
 METHOD_num has options @RKF45, @RK_Bogacki_Shampine, @RK_Cash_Karp, @RK_Dormand_Prince.\
 METHOD_adapative has options @adaptive_deprecated (faster but less accurate) and @adaptive (slower but more accurate).\
