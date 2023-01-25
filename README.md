@@ -2,9 +2,9 @@
 
 University Group Project in partnership with the High Performance Computing Centre Stuttgart (HLRS).
 
-Project Title: Modelling and Numerical Solution of the Blood Circulatory System.
-Creators: Berlinski Tomer, Costa Beatrice, Ehrlich Manuel and Moral Sánchez Elena.
-Matlab simulation (all the code in this repository) by Ehrlich Manuel and Moral Sánchez Elena.
+Project Title: Modelling and Numerical Solution of the Blood Circulatory System. \
+Creators: Berlinski Tomer, Costa Beatrice, Ehrlich Manuel and Moral Sánchez Elena. \
+Matlab simulation (all the code in this repository) by Ehrlich Manuel and Moral Sánchez Elena.\
 Supervised by Prof. Rainer Callies and Dr. Tobias Koeppl
 
 
@@ -22,6 +22,6 @@ In this project we have modelled and simulated the circulatory system using 14 c
 
 You can choose between four numerical methods. You can choose between 2 different implementations of the adaptive time step, with a tradeoff between speed and accuracy. We have non-differentiable points in the model. To address that you can choose whether slightly modify the model, or use a root-finding method.
 
-METHOD_num has options @RKF45, @RK_Bogacki_Shampine, @RK_Cash_Karp, @RK_Dormand_Prince.
-METHOD_adapative has options @adaptive_deprecated (faster but less accurate) and @adaptive (slower but more accurate).
-METHOD_diff has options @F (with root_finding) and @F_modified (using modified RHS).
+METHOD_num has options @RKF45, @RK_Bogacki_Shampine, @RK_Cash_Karp, @RK_Dormand_Prince.\
+METHOD_adapative has options @adaptive_deprecated (faster but less accurate) and @adaptive (slower but more accurate).\
+METHOD_diff has options @F (with root_finding) and @F_modified (using modified RHS).\
